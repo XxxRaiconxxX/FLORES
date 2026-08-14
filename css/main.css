@@ -1,4 +1,4 @@
-﻿*,
+*,
 *::after,
 *::before {
   padding: 0;
@@ -67,15 +67,15 @@ body {
   display: block;
   width: 40px;
   height: 0.5px;
-  background: #d4a833;
-  opacity: 0.7;
+  background: #38bdf8;
+  opacity: 0.8;
 }
 
 .flores-deco-star {
-  color: #f0c040;
+  color: #7dd3fc;
   font-size: 11px;
   letter-spacing: 6px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .flores-frase {
@@ -83,7 +83,7 @@ body {
   font-style: italic;
   font-weight: 300;
   font-size: 18px;
-  color: #e8d08a;
+  color: #bae6fd;
   letter-spacing: 0.04em;
   margin: 0 0 0.5rem;
   white-space: normal;
@@ -99,10 +99,10 @@ body {
   font-weight: 700;
   font-style: italic;
   font-size: 36px;
-  color: #f5e27a;
+  color: #38bdf8;
   letter-spacing: 0.06em;
   margin: 0;
-  text-shadow: 0 0 30px rgba(220,180,40,0.35), 0 2px 16px rgba(0,0,0,0.7);
+  text-shadow: 0 0 30px rgba(56, 189, 248, 0.5), 0 2px 16px rgba(0,0,0,0.7);
   line-height: 1.1;
 }
 
@@ -235,10 +235,10 @@ body {
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
   background-color: #1aaa15;
-  background-image: linear-gradient(to top, #fce700, #fce700);
+  background-image: linear-gradient(to top, #0284c7 0%, #38bdf8 65%, #7dd3fc 100%);
   transform-origin: bottom center;
-  opacity: 0.9;
-  box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
+  opacity: 0.92;
+  box-shadow: inset 0 0 2vmin rgba(224, 242, 254, 0.7);
 }
 .flower__leaf--1 {
   transform: translate(-10%, 1%) rotateY(40deg) rotateX(-50deg);
@@ -255,9 +255,9 @@ body {
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-image: linear-gradient(to top, #fce700, #fce700);
+  background-image: linear-gradient(to top, #0284c7 0%, #38bdf8 100%);
   z-index: 1;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 .flower__white-circle {
   position: absolute;
@@ -297,7 +297,7 @@ body {
   rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), repeating-linear-gradient(67.5deg, 
   rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), 
   repeating-linear-gradient(67.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, 
-  transparent 1px, transparent 12px), linear-gradient(90deg, rgb(190, 133, 0), rgb(190, 133, 0));
+  transparent 1px, transparent 12px), linear-gradient(90deg, #0369a1, #0284c7);
 }
 .flower__line {
   height: 55vmin;
@@ -355,14 +355,14 @@ body {
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: rgb(255, 251, 0);
+  background-color: rgb(186, 230, 253);
   border-radius: 50%;
   filter: blur(0.2vmin);
   -webkit-animation: light-ans 4s linear infinite backwards;
           animation: light-ans 4s linear infinite backwards;
 }
 .flower__light:nth-child(odd) {
-  background-color: #fce700;
+  background-color: #38bdf8;
 }
 .flower__light--1 {
   left: -2vmin;
